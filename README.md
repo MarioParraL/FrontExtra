@@ -25,6 +25,7 @@ fetch(https://apicontacts.deno.dev/contact`,
    );
    
 *Modo de evaluación*
+
 0%. La funcionalidad implementada no es como la de la web de ejemplo o hay errores graves en el código (aunque funcione bien).
 
 40% . La funcionalidad implementada se asemeja fundamentalmente a la de la web que se muestra, pero con alguna carencia o hay errores de código.
@@ -34,10 +35,12 @@ fetch(https://apicontacts.deno.dev/contact`,
 100%. La funcionalidad implementada es igual a la de la web con las mismas técnicas (SSR, CSR, Cookies, etc.). El código es adecuado.
 
 Puntuación
+
 Listar contactos: 2.5 puntos.
 Borrar contacto: 2.5 puntos.
 Añadir contacto: 2.5 puntos.
 DNI: 2.5 puntos.
+
 Nota
 En caso de que un alumno no sepa implementar la funcionalidad del DNI puede trabajar poniendo su DNI directamente en el código.
 
