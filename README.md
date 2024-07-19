@@ -12,7 +12,9 @@ Al añadir un contacto, el campo para el correo, verifica que el correo tiene un
 El API que se utiliza para realizar todas las operaciones es https://apicontacts.deno.dev , con los siguientes endpoints:
 
 **GET /contacts/:dni** . Devuelve un array con los contactos de dicho DNI (o array vacío si no tiene).
+
 **DELETE /contact/:dni/:id** . Elimina el contacto con el id dado perteneciente a un DNI
+
 **POST /contact** . Añade el contacto según el cuerpo (body) de la petición (el DNI es el DNI del usuario, no del contacto), por ejemplo:
 fetch(https://apicontacts.deno.dev/contact`,
      {
@@ -21,11 +23,16 @@ fetch(https://apicontacts.deno.dev/contact`,
        body: JSON.stringify({ name, email, dni }),
      },
    );
+   
 *Modo de evaluación*
 0%. La funcionalidad implementada no es como la de la web de ejemplo o hay errores graves en el código (aunque funcione bien).
+
 40% . La funcionalidad implementada se asemeja fundamentalmente a la de la web que se muestra, pero con alguna carencia o hay errores de código.
+
 70%. La funcionalidad implementada es igual a la de la web, pero no hace las cosas del mismo modo, por ejemplo, hace server side algo que en el ejemplo es client side, usa rutas distintas, etc. El código es adecuado.
+
 100%. La funcionalidad implementada es igual a la de la web con las mismas técnicas (SSR, CSR, Cookies, etc.). El código es adecuado.
+
 Puntuación
 Listar contactos: 2.5 puntos.
 Borrar contacto: 2.5 puntos.
