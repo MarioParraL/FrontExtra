@@ -16,7 +16,7 @@ En el listado de contactos se pueden añadir nuevos contactos y borrar contactos
 
 Al añadir un contacto, el campo para el correo, verifica que el correo tiene un formato adecuado y en caso contrario muestra un error.
 
-El API que se utiliza para realizar todas las operaciones es https://apicontacts.deno.dev , con los siguientes endpoints:
+El API que se utiliza para realizar todas las operaciones es https://apicontacts.deno.dev , con los siguientes **endpoints**:
 
 **GET /contacts/:dni** . Devuelve un array con los contactos de dicho DNI (o array vacío si no tiene).
 
